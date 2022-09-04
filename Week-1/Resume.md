@@ -37,7 +37,7 @@ Pada dasarnya fungsi utama dari algoritma adalah untuk memecahkan suatu masalah.
 
 Untuk merubah algoritma tersebut menjadi bahasa yang dapat mudah untuk diterapkan pada koding, dibutuhkan konversi dari algoritma menjadi pseudocode. Hal tersebut bertujuan untuk mendapatkan gambaran bagaimana alur dari program yang akan dibuat.
 
-![Gambar1] (https://www.dicoding.com/blog/wp-content/uploads/2021/08/Contoh-pseudocode-ganjil-genap.png)
+![Gambar](https://www.dicoding.com/blog/wp-content/uploads/2021/08/Contoh-pseudocode-ganjil-genap.png)
 
 
 
