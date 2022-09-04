@@ -1,4 +1,4 @@
-## 
+## **JavaScript Basic**
 JavaScript adalah salah satu dari 3 bahasa yang harus dipelajari oleh semua pengembang web: 
 - HTML untuk menentukan konten halaman web
 - CSS untuk menentukan tata letak halaman web
