@@ -4,6 +4,30 @@ JavaScript adalah salah satu dari 3 bahasa yang harus dipelajari oleh semua peng
 - CSS untuk menentukan tata letak halaman web
 - JavaScript untuk memprogram perilaku halaman web
 
+## JavaScript Data Type Built in Prototype and Method
+JavaScript adalah bahasa yang diketik secara longgar dan dinamis. Variabel dalam JavaScript tidak secara langsung terkait dengan jenis nilai tertentu, dan variabel apa pun dapat ditetapkan (dan ditetapkan kembali) nilai dari semua jenis:
+
+let foo = 42;    // foo is now a number
+foo     = 'bar'; // foo is now a string
+foo     = true;  // foo is now a boolean
+
+Jenis-jenis data dalam JavaScript terdiri dari _objects_ dan _primitive values_
+- _**Primitive values**_:
+
+1. _Boolean type_
+2. _Null type_
+3. _Undefined type_
+4. _Number type_
+5. _BigInt type_
+6. _String type_
+7. _Symbol type_
+
+- _**Objects**_
+
+Setiap _function_ dan _objects_ dalam JavaScript memiliki properti bawaan, yang disebut _prototype_. _Prototype_ itu sendiri adalah objek, sehingga _prototype_ akan memiliki _prototype_ sendiri, membuat apa yang disebut rantai _prototype_. Rantai berakhir ketika kita mencapai _prototype_ yang memiliki _null_ untuk _prototype_ sendiri.
+
+function Person () { this.name = 'Ghufran', this. age = 22 } const person = new Person(); // 
+
 ## JavaScript Variable
 
 Variabel digunakan untuk menyimpan nilai (name = "Ghufran") atau ekspresi (sum = x y). Sebelum menggunakan variabel, kita harus terlebih dahulu mendeklarasikannya menggunakan kata kunci var untuk mendeklarasikan variabel seperti ini: 
@@ -55,5 +79,7 @@ Ada beberapa jenis _conditional statement_ seperti:
 2.	_If…Else statement_
 3.	_If…Else If…Else statement_
 
+## JavaScript DOM Manipulation
+Dalam pengembangan website, DOM adalah singkatan dari _Document Object Model_. Ini adalah antarmuka pemrograman yang memungkinkan kita untuk membuat, mengubah, atau menghapus elemen dari dokumen situs web. Manipulasi DOM adalah ketika kita menggunakan JavaScript untuk menambah, menghapus, dan memodifikasi elemen situs web. Hal ini sangat umum dalam pengembangan web.
 
 
