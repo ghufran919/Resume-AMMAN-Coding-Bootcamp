@@ -9,7 +9,7 @@ Unix command line adalah ‘shell’ atau ‘terminal’ yang digunakan untuk me
 4. mkdir, command yang digunakan untuk membuat folder baru; 
 5. rm, command yang digunakan untuk mengganti nama atau menghapus file; dsb.
 
-## Git dan GitHub
+## Git and GitHub
 Git adalah tools untuk melacak setiap perubahan file atau kode. Beberapa command yang digunakan dalam git diantaranya: 
 
 1. git config --list melihat configurasi git kita; 
@@ -32,7 +32,12 @@ GitHub adalah sebuah platform khusus developer yang memberikan layanan berupa pe
 
 Developer yang menggunakan Git dapat menggunakan command-line tool, yaitu pengubah kode dan dapat digabungkan menuju perangkat lokal. Sedangkan, GitHub menyediakan interface grafis berbasis cloud sebagai tempat untuk melakukan seluruh tugas.
 
-## HTML
+## Algorithm and Data Structure
+Pada dasarnya fungsi utama dari algoritma adalah untuk memecahkan suatu masalah. Suatu algoritma pemrograman membawa keuntungan serta fungsi penting dalam aktivitas pembuatan program. Algoritma pada umumnya digunakan untuk membantu setiap orang yang ingin mengkonversikan sebuah permasalahan ke bahasa pemrograman.
+
+Untuk merubah algoritma tersebut menjadi bahasa yang dapat mudah untuk diterapkan pada koding, dibutuhkan konversi dari algoritma menjadi pseudocode. Hal tersebut bertujuan untuk mendapatkan gambaran bagaimana alur dari program yang akan dibuat.
+
+![Gambar1] (https://www.dicoding.com/blog/wp-content/uploads/2021/08/Contoh-pseudocode-ganjil-genap.png)
 
 
 
