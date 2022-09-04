@@ -63,18 +63,17 @@ Adapun notasi yang digunakan untuk mengetahui proses yang terjadi antara lain:
 
 HTML (_Hyper Text Markup Language_) adalah bahasa markup standar untuk membuat halaman Web. HTML menjelaskan struktur halaman Web serta terdiri dari serangkaian elemen-elemen yang kemudian memberi tahu browser cara menampilkan konten.
 
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+- Elemen dan Tag: HTML menggunakan tag dan elemen yang telah ditentukan sebelumnya yang memberi tahu browser cara menampilkan konten dengan benar.
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+- Struktur halaman HTML: Struktur dasar halaman HTML diletakkan di bawah ini. Ini berisi elemen blok bangunan penting (yaitu _i.e. doctype declaration, HTML, head, title,_ dan _body elements_) di mana semua halaman web dibuat.
 
-</body>
-</html>
+![Gambar](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220401160946/HTML-Basic-Format-768x534.png)
 
+## CSS
 
+CSS (_Cascading Style Sheets_) adalah bahasa _stylesheet_ yang digunakan untuk merancang halaman web agar menarik.Alasan menggunakan ini adalah untuk menyederhanakan proses pembuatan halaman web yang rapi. Ini memungkinkan untuk menerapkan gaya pada halaman web.
 
+Ada tiga jenis CSS yang diberikan di bawah ini: 
+- Inline: Inline CSS berisi properti CSS di bagian _body_ yang dilampirkan dengan elemen.
+- Internal: Set aturan CSS harus berada di dalam file HTML di bagian head yaitu CSS tertanam di dalam file HTML.
+- Eksternal: CSS eksternal berisi file CSS terpisah yang hanya berisi properti _style_ dengan bantuan atribut tag.
