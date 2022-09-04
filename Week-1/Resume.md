@@ -41,33 +41,24 @@ Untuk merubah algoritma tersebut menjadi bahasa yang dapat mudah untuk diterapka
 
 Disitu dapat kita lihat susunan dari _pseudocode_ yakni:
 
-- Judul
-Sesuai dengan namanya, bagian ini digunakan untuk menunjukan judul dari algoritma yang akan ditulis oleh programmer.
+- Judul: Sesuai dengan namanya, bagian ini digunakan untuk menunjukan judul dari algoritma yang akan ditulis oleh programmer.
 
-- Deklarasi
-Deklarasi ini berisi keterangan seperti variabel atau konstanta yang digunakan dalam penulisan algoritma.
+- Deklarasi: Deklarasi ini berisi keterangan seperti variabel atau konstanta yang digunakan dalam penulisan algoritma.
 
-- Algoritma
-Algoritma ini berisikan proses atau perintah atau langkah dari algoritma. Ia dapat diartikan sebagai inti dari pseudocode. Kamu dapat menuliskan segala proses pada bagian ini, seperti proses kondisional (_if/else_), perulangan (for), atau operasional (penjumlahan, pengurangan, dan sebagainya).
+- Algoritma: Algoritma ini berisikan proses atau perintah atau langkah dari algoritma. Ia dapat diartikan sebagai inti dari pseudocode. Kamu dapat menuliskan segala proses pada bagian ini, seperti proses kondisional (_if/else_), perulangan (for), atau operasional (penjumlahan, pengurangan, dan sebagainya).
 
 Adapun notasi yang digunakan untuk mengetahui proses yang terjadi antara lain:
 
-- _INPUT_
-Digunakan untuk menunjukan proses memasukan suatu isi variabel.
+- _INPUT_: Digunakan untuk menunjukan proses memasukan suatu isi variabel.
 
-- _OUTPUT_
-Digunakan untuk menunjukan proses keluaran yang terjadi.
+- _OUTPUT_: Digunakan untuk menunjukan proses keluaran yang terjadi.
 
-- _WHILE_
-Digunakan untuk sebuah perulangan yang memiliki iterasi awal.
+- _WHILE_: Digunakan untuk sebuah perulangan yang memiliki iterasi awal.
 
-- _FOR_
-Digunakan untuk sebuah perulangan perhitungan iterasi.
+- _FOR_: Digunakan untuk sebuah perulangan perhitungan iterasi.
 
-- _REPEAT – UNTIL_
-Digunakan untuk sebuah perulangan yang memiliki kondisi akhir.
+- _REPEAT – UNTIL_: Digunakan untuk sebuah perulangan yang memiliki kondisi akhir.
 
-- _IF – THEN – ELSE_
-Digunakan untuk mengambil sebuah keputusan dari beberapa kondisi.
+- _IF – THEN – ELSE_: Digunakan untuk mengambil sebuah keputusan dari beberapa kondisi.
 
 
