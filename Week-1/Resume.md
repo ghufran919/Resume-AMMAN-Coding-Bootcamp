@@ -26,7 +26,7 @@ Git adalah tools untuk melacak setiap perubahan _file_ atau kode. Beberapa comma
 14. git branch -d <nama branch> --  menghapus _branch_; 
 15. git merge <nama target branch yang ingin kita tarik> --  menggabungkan kedua buah _branch_.
 
-GitHub adalah sebuah platform khusus developer yang memberikan layanan berupa pengelolaan project hingga kolaborasi dalam pembuatan website maupun _software_ serta segala hal-hal yang menggunakan ‘coding’ di dalamnya.
+GitHub adalah sebuah platform khusus developer yang memberikan layanan berupa pengelolaan project hingga kolaborasi dalam pembuatan website maupun _software_ serta segala hal-hal yang menggunakan ‘_coding_’ di dalamnya.
 
 Developer yang menggunakan Git dapat menggunakan _command-line tool_, yaitu pengubah kode dan dapat digabungkan menuju perangkat lokal. Sedangkan, GitHub menyediakan _interface_ grafis berbasis cloud sebagai tempat untuk melakukan seluruh tugas.
 
@@ -43,7 +43,7 @@ Disitu dapat kita lihat susunan dari _pseudocode_ yakni:
 
 - Deklarasi: Deklarasi ini berisi keterangan seperti variabel atau konstanta yang digunakan dalam penulisan algoritma.
 
-- Algoritma: Algoritma ini berisikan proses atau perintah atau langkah dari algoritma. Ia dapat diartikan sebagai inti dari pseudocode. Kamu dapat menuliskan segala proses pada bagian ini, seperti proses kondisional (_if/else_), perulangan (for), atau operasional (penjumlahan, pengurangan, dan sebagainya).
+- Algoritma: Algoritma ini berisikan proses atau perintah atau langkah dari algoritma. Ia dapat diartikan sebagai inti dari pseudocode. Kamu dapat menuliskan segala proses pada bagian ini, seperti proses kondisional (_if/else_), perulangan (_for_), atau operasional (penjumlahan, pengurangan, dan sebagainya).
 
 Adapun notasi yang digunakan untuk mengetahui proses yang terjadi antara lain:
 
