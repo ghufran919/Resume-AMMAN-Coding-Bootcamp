@@ -1,5 +1,3 @@
-## Materi Minggu ke-1
-
 ## Unix Command-line
 _Unix command line_ adalah _‘shell’_ atau _‘terminal’_ yang digunakan untuk menjalankan perintah dalam program atau mengeksekusi perintah dalam sistem. Beberapa perintah yang sering digunakan dalam melakukan operasi melalui ‘PowerShell’ seperti: 
 
