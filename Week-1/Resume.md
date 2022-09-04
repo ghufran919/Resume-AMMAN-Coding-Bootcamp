@@ -59,4 +59,22 @@ Adapun notasi yang digunakan untuk mengetahui proses yang terjadi antara lain:
 
 - _IF – THEN – ELSE_: Digunakan untuk mengambil sebuah keputusan dari beberapa kondisi.
 
+## HTML
+
+HTML (_Hyper Text Markup Language_) adalah bahasa markup standar untuk membuat halaman Web. HTML menjelaskan struktur halaman Web serta terdiri dari serangkaian elemen-elemen yang kemudian memberi tahu browser cara menampilkan konten.
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+
 
