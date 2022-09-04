@@ -71,7 +71,7 @@ HTML (_Hyper Text Markup Language_) adalah bahasa markup standar untuk membuat h
 
 ## CSS
 
-CSS (_Cascading Style Sheets_) adalah bahasa _stylesheet_ yang digunakan untuk merancang halaman web agar menarik.Alasan menggunakan ini adalah untuk menyederhanakan proses pembuatan halaman web yang rapi. Ini memungkinkan untuk menerapkan gaya pada halaman web.
+CSS (_Cascading Style Sheets_) adalah bahasa _stylesheet_ yang digunakan untuk merancang halaman web agar menarik. Alasan menggunakan CSS adalah untuk menyederhanakan proses pembuatan halaman web yang rapi. Ini memungkinkan untuk menerapkan gaya pada halaman web.
 
 Ada tiga jenis CSS yang diberikan di bawah ini: 
 - Inline: Inline CSS berisi properti CSS di bagian _body_ yang dilampirkan dengan elemen.
