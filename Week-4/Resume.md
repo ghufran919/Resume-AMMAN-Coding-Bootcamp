@@ -34,7 +34,7 @@ _Row_ (<b-row> dan <b-form-row>) adalah pembungkus untuk '_columns_'. Setiap _co
 
 - _Columns_
 
-'<b-col>' Harus ditempatkan di dalam komponen //<b-row>, atau elemen (seperti //<div>) yang memiliki baris kelas yang diterapkan.
+'''<b-col>''' Harus ditempatkan di dalam komponen //<b-row>, atau elemen (seperti //<div>) yang memiliki baris kelas yang diterapkan.
 
 **Components**
 
