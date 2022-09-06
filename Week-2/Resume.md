@@ -7,13 +7,13 @@ JavaScript adalah salah satu dari 3 bahasa yang harus dipelajari oleh semua peng
 ## JavaScript Functions
 _Functions_ sangat penting dan berguna dalam bahasa pemrograman apa pun karena membuat kode dapat digunakan kembali. _Functions_ adalah blok kode yang akan dijalankan hanya jika dipanggil. Jika kita memiliki beberapa baris kode yang perlu digunakan beberapa kali, kita dapat membuat fungsi termasuk baris kode berulang dan kemudian memanggil _functions_ tersebut.
 
-let panjang =100;
-let lebar = 50;
-function LuasPersegiPanjang(p,l) {
+    let panjang =100;
+    let lebar = 50;
+    function LuasPersegiPanjang(p,l) {
     return p * l;
-}
-console.log (LuasPersegiPanjang(p, l));
-
+    }
+    console.log (LuasPersegiPanjang(p, l));
+    
 Diatas adalah contoh fungsi untuk menampilkan hasil dari luas persegi panjang.
 
 JavaScript memiliki cakupan fungsi (_function scope_). Setiap fungsi membuat cakupan baru. Variabel yang didefinisikan di dalam fungsi tidak dapat diakses (_visible_) dari luar fungsi. Variabel yang dideklarasikan dengan _var_ , _let_ dan _const_ sangat mirip ketika dinyatakan di dalam fungsi.
@@ -21,9 +21,9 @@ JavaScript memiliki cakupan fungsi (_function scope_). Setiap fungsi membuat cak
 ## JavaScript Data Type Built in Prototype and Method
 JavaScript adalah bahasa yang diketik secara longgar dan dinamis. Variabel dalam JavaScript tidak secara langsung terkait dengan jenis nilai tertentu, dan variabel apa pun dapat ditetapkan (dan ditetapkan kembali) nilai dari semua jenis:
 
-let foo = 42;    // foo is now a number
-foo     = 'bar'; // foo is now a string
-foo     = true;  // foo is now a boolean
+ let foo = 42;    // foo is now a number
+ foo     = 'bar'; // foo is now a string
+ foo     = true;  // foo is now a boolean
 
 Jenis-jenis data dalam JavaScript terdiri dari _objects_ dan _primitive values_
 - _**Primitive values**_:
@@ -40,13 +40,13 @@ Jenis-jenis data dalam JavaScript terdiri dari _objects_ dan _primitive values_
 
 Setiap _function_ dan _objects_ dalam JavaScript memiliki properti bawaan, yang disebut _prototype_. _Prototype_ itu sendiri adalah objek, sehingga _prototype_ akan memiliki _prototype_ sendiri, membuat apa yang disebut rantai _prototype_. Rantai berakhir ketika kita mencapai _prototype_ yang memiliki _null_ untuk _prototype_ sendiri.
 
-function Person () { this.name = 'Ghufran', this. age = 22 } const person = new Person(); // 
+ function Person () { this.name = 'Ghufran', this. age = 22 } const person = new Person(); // 
 
 ## JavaScript Variable
 
 Variabel digunakan untuk menyimpan nilai (name = "Ghufran") atau ekspresi (sum = x y). Sebelum menggunakan variabel, kita harus terlebih dahulu mendeklarasikannya menggunakan kata kunci var untuk mendeklarasikan variabel seperti ini: 
 
-var name; 
+ var name; 
 
 Untuk menetapkan nilai ke variabel baik saat mendeklarasikan variabel atau setelah mendeklarasikan variabel.
 
@@ -61,11 +61,11 @@ Array adalah objek yang dapat menyimpan koleksi item. Array menjadi sangat bergu
 
 Untuk membuat array di JavaScript maka yang kita ketik adalah:
 
-var students = ["Ahmad", "Ghufran"];
+ var students = ["Ahmad", "Ghufran"]; 
 
 Indeks "Ahmad" dan "Ghufran" masing-masing adalah 0 dan 1. Jika kita ingin menambahkan lebih banyak elemen ke array students, maka dapat melakukannya seperti ini:
 
-students[2] = "Akbar";
+ students[2] = "Akbar";
 
 Objek Array memiliki banyak properti dan metode yang membantu pengembang untuk menangani array dengan mudah dan efisien. Kita bisa mendapatkan nilai properti dengan menentukan arrayname.property dan output metode dengan menentukan arrayname.method().
 
