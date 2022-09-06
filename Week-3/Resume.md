@@ -14,18 +14,19 @@ Alur-alur yang dapat dilakukan seperti:
 Kita dapat membuat _multidimensional array_ dengan mendefinisikan array elemen, di mana setiap elemen juga merupakan array lain. Untuk alasan ini, kita dapat mengatakan bahwa _multidimensional array_ JavaScript adalah array yang berisikan array lain.
 
 **Contoh**
-'''
-const data = [[1, 2, 3], [1, 3, 4], [4, 5, 6]];
-'''
+
+    const data = [[1, 2, 3], [1, 3, 4], [4, 5, 6]];
+ 
+
+
 
 ## Object
 Dalam JavaScript, objek adalah entitas tunggal, dengan properti dan tipe. Objek adalah variabel. Variabel JavaScript dapat berisi nilai tunggal juga dapat berisi banyak nilai. Objek juga merupakan variabel, tetapi objek dapat mengandung banyak nilai. Nilai objek ditulis sebagai nama : nilai secara berpasangan (nama dan nilai dipisahkan oleh titik dua).
 
 **Contoh**
 
-'''
-let person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
-'''
+    let person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
 
 ## Recursive
 Fungsi rekursif adalah fungsi yang memanggil dirinya sendiri sampai berakhir. Metode ini disebut rekursi. 
