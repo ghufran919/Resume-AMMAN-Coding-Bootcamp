@@ -16,7 +16,7 @@ _Functions_ sangat penting dan berguna dalam bahasa pemrograman apa pun karena m
     
 Diatas adalah contoh fungsi untuk menampilkan hasil dari luas persegi panjang.
 
-JavaScript memiliki cakupan fungsi (_function scope_). Setiap fungsi membuat cakupan baru. Variabel yang didefinisikan di dalam fungsi tidak dapat diakses (_visible_) dari luar fungsi. Variabel yang dideklarasikan dengan _var_ , _let_ dan _const_ sangat mirip ketika dinyatakan di dalam fungsi.
+JavaScript memiliki cakupan fungsi (_function scope_). Setiap fungsi membuat cakupan baru. Variabel yang didefinisikan di dalam fungsi tidak dapat diakses (_visible_) dari luar fungsi. Variabel yang dideklarasikan dengan _var_, _let_ dan _const_ sangat mirip ketika dinyatakan di dalam fungsi.
 
 ## JavaScript Data Type Built in Prototype and Method
 JavaScript adalah bahasa yang diketik secara longgar dan dinamis. Variabel dalam JavaScript tidak secara langsung terkait dengan jenis nilai tertentu, dan variabel apa pun dapat ditetapkan (dan ditetapkan kembali) nilai dari semua jenis:
