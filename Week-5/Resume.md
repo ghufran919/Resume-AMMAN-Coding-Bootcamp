@@ -1,5 +1,5 @@
 ## ReactJS Basic
-ReactJS adalah open source, pustaka JavaScript untuk mengembangkan antarmuka pengguna (UI) dalam aplikasi web. 
+ReactJS adalah pustaka JavaScript _open source_ untuk mengembangkan antarmuka pengguna (UI) dalam aplikasi web. 
 
 ## Pemasangan ReactJS
 
@@ -16,13 +16,19 @@ ReactJS adalah open source, pustaka JavaScript untuk mengembangkan antarmuka pen
 
 ## Inisialisasi Proyek dengan ReactJS
 1. Buka Terminal atau Command Prompt (CMD)
-2. Lakukan perintah pada terminal yang telah dibuka :
+2. Lakukan perintah pada terminal yang telah dibuka:
 
 > npx create-react-app [name-project]
 
 3. Install _React-router Library _
 
 > npm install react-router@5.3.3
+
+4. Inisialisasi Proyek pada CMD dengan mengetik:
+
+> npm start
+
+Render akan dimulai pada https://localhost:3000/
 
 ## Fitur dalam ReactJS
 - JSX
@@ -73,6 +79,7 @@ _Lifecyle_ dari _components_ dibagi menjadi tahap-tahap sebagai berikut:
 - _Mounting_: Pada fase ini, _Components_ dirender di dalam DOM. 
 
 > componentDidMount(): Ini juga dipanggil ketika _component_ baru saja ditambahkan ke DOM.
+
 > render(): Metode ini diterapkan pada semua _component_ yang dibuat. 
 
 - _Update_: Dalam kondisi ini, DOM berinteraksi dengan pengguna dan diperbarui.
