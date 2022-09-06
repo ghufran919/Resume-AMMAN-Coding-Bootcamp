@@ -24,7 +24,7 @@ ReactJS adalah pustaka JavaScript _open source_ untuk mengembangkan antarmuka pe
 
 > npm install react-router@5.3.3
 
-4. Inisialisasi Proyek pada CMD dengan mengetik:
+4. Inisialisasi proyek pada CMD dengan mengetik:
 
 > npm start
 
