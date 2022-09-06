@@ -24,7 +24,7 @@ JavaScript adalah bahasa yang diketik secara longgar dan dinamis. Variabel dalam
     let foo = 42;    // foo is now a number
     foo     = 'bar'; // foo is now a string
     foo     = true;  // foo is now a boolean
-
+    
 Jenis-jenis data dalam JavaScript terdiri dari _objects_ dan _primitive values_
 - _**Primitive values**_:
 
