@@ -12,7 +12,6 @@ ReactJS adalah pustaka JavaScript _open source_ untuk mengembangkan antarmuka pe
 > npm --version
 4. Instalasi _React App Library_ melalui CMD dengan mengetik
 > npm install -g create-react-app
-2. Buka CMD ketik ('npx create-react-app nama-aplikasi')
 
 ## Inisialisasi Proyek dengan ReactJS
 1. Buka Terminal atau Command Prompt (CMD)
