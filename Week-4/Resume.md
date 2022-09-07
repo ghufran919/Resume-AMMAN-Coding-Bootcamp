@@ -23,18 +23,18 @@ Bootstrap adalah kerangka kerja pengembangan _front-end open source_ gratis untu
 
 - _Containers_
 
-_Container_ ('b-container') adalah elemen tata letak paling dasar di Bootstrap.
+_Container_ (`b-container`) adalah elemen tata letak paling dasar di Bootstrap.
 
-1. _Fluid width container_-> Dengan menggunakan fluid prop pada 'b-container' akan membuat kontainer yang lebarnya selalu 100%, terlepas dari _breakpoint viewport_.
-2. _Responsive fluid containers_ -> Memungkinkan kita untuk menentukan _container_ dengan _width _100% (_fluid_) sampai _breakpoint_ tertentu tercapai di mana '_max-width_' diterapkan.
+1. _Fluid width container_-> Dengan menggunakan fluid prop pada (`b-container`) akan membuat kontainer yang lebarnya selalu 100%, terlepas dari _breakpoint viewport_.
+2. _Responsive fluid containers_ -> Memungkinkan kita untuk menentukan _container_ dengan _width _100% (_fluid_) sampai _breakpoint_ tertentu tercapai di mana (`_max-width_`) diterapkan.
 
 - _Row_
 
-_Row_ ('b-row' dan 'b-form-row') adalah pembungkus untuk '_columns_'. Setiap _columns_ memiliki '_horizontal padding_' untuk mengontrol ruang di antara mereka.
+_Row_ ( (`b-row`) dan (`b-form-row`) ) adalah pembungkus untuk (`_columns_`). Setiap _columns_ memiliki (`_horizontal padding_`) untuk mengontrol ruang di antara mereka.
 
 - _Columns_
 
-'b-col' harus ditempatkan di dalam komponen 'b-row', atau elemen (seperti 'div') yang memiliki baris kelas yang diterapkan.
+(`b-col`) harus ditempatkan di dalam komponen (`b-row`), atau elemen (seperti (`div`) ) yang memiliki baris kelas yang diterapkan.
 
 **Components**
 
