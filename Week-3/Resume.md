@@ -21,7 +21,7 @@ Kita dapat membuat _multidimensional array_ dengan mendefinisikan array elemen, 
 
 
 ## Object
-Dalam JavaScript, objek adalah entitas tunggal, dengan properti dan tipe. Objek adalah variabel. Variabel JavaScript dapat berisi nilai tunggal juga dapat berisi banyak nilai. Objek juga merupakan variabel, tetapi objek dapat mengandung banyak nilai. Nilai objek ditulis sebagai nama : nilai secara berpasangan (nama dan nilai dipisahkan oleh titik dua).
+Dalam JavaScript, objek adalah entitas tunggal, dengan properti dan tipe. Objek adalah variabel. Variabel JavaScript dapat berisi nilai tunggal juga dapat berisi banyak nilai. Objek juga merupakan variabel, tetapi objek dapat mengandung banyak nilai. Nilai objek ditulis sebagai `nama : nilai` secara berpasangan (nama dan nilai dipisahkan oleh titik dua).
 
 **Contoh**
 
@@ -51,7 +51,7 @@ _Regular expression_ adalah pola yang digunakan untuk mencocokkan kombinasi kara
 ## Object Oriented Programming (OOP) and Modules
 Modul dalam JavaScript hanyalah file yang berisi kode terkait. Di JavaScript, kita menggunakan kata kunci impor dan ekspor untuk berbagi dan menerima fungsionalitas masing- masing di berbagai modul. Kata kunci ekspor digunakan untuk membuat variabel, _function_, _class_ atau _object_ dapat diakses oleh modul lain.
 
- _Object oriented programming_ adalah segala hal tentang pemodelan sistem sebagai kumpulan objek, di mana setiap objek mewakili beberapa aspek tertentu dari sistem. Objek berisi fungsi (atau metode) dan data. 
+ _Object oriented programming_ adalah segala hal tentang pemodelan sistem sebagai kumpulan objek, di mana setiap objek mewakili beberapa aspek tertentu dari sistem. Objek berisi fungsi dan data. 
  
  Terdapat tiga konsep utama dari OOP yakni:
 1. _classes and instances_;
@@ -62,14 +62,14 @@ Modul dalam JavaScript hanyalah file yang berisi kode terkait. Di JavaScript, ki
 Web Storage API menyediakan mekanisme di mana browser dapat menyimpan _key/value_ dengan cara yang jauh lebih intuitif daripada menggunakan _cookie_. 
 
 Mekanisme dalam Web Storage adalah sebagai berikut: 
-- (`sessionStorage`) mempertahankan area penyimpanan terpisah untuk setiap asal tertentu yang tersedia selama sesi halaman (selama browser terbuka, termasuk pemuatan ulang dan pemulihan halaman) serta menyimpan data hanya untuk sesi, artinya data disimpan hingga browser (atau tab) ditutup. Data tidak pernah ditransfer ke server. Batas penyimpanan lebih besar dari cookie (paling banyak 5MB).
-- (`localStorage`) melakukan hal yang sama, tetapi tetap ada bahkan ketika browser ditutup dan dibuka kembali. Menyimpan data tanpa tanggal kedaluwarsa, dan hanya dihapus melalui JavaScript, atau membersihkan _cache_ Browser.
+- `sessionStorage` mempertahankan area penyimpanan terpisah untuk setiap asal tertentu yang tersedia selama sesi halaman (selama browser terbuka, termasuk pemuatan ulang dan pemulihan halaman) serta menyimpan data hanya untuk sesi, artinya data disimpan hingga browser (atau tab) ditutup. Data tidak pernah ditransfer ke server. 
+- `localStorage` melakukan hal yang sama, tetapi tetap ada bahkan ketika browser ditutup dan dibuka kembali. Menyimpan data tanpa tanggal kedaluwarsa, dan hanya dihapus melalui JavaScript, atau membersihkan _cache_ Browser.
 
-Mekanisme ini tersedia melalui properti (`Window.sessionStorage`) dan (`Window.localStorage`)
+Mekanisme ini tersedia melalui properti `Window.sessionStorage` dan `Window.localStorage`
 
 ## Asynchronous
 _Asynchronous programming_ adalah teknik yang memungkinkan program untuk memulai tugas yang berpotensi berjalan lama dan masih dapat responsif terhadap peristiwa lain saat tugas itu berjalan, daripada harus menunggu sampai tugas itu selesai. Setelah tugas itu selesai, program disajikan dengan hasilnya.
 
 _Event handlers_ merupakan bentuk pemrograman asinkron. Kita menyediakan fungsi (_event handlers_) yang akan dipanggil, tidak segera, tetapi setiap kali peristiwa itu terjadi. 
 
-_Fetch API_ memungkinkan untuk meminta sumber daya secara asinkron. Gunakan metode fetch() untuk mengembalikan _promise_ yang diselesaikan ke dalam _Response object_. Untuk mendapatkan data aktual, kita dapat memanggil salah satu metode _Response object_ misalnya, (`text()`) atau (`json()`). Metode-metode ini diselesaikan ke dalam data aktual.
+_Fetch API_ memungkinkan untuk meminta sumber daya secara asinkron. Gunakan metode `fetch()` untuk mengembalikan _promise_ yang diselesaikan ke dalam _Response object_. Untuk mendapatkan data aktual, kita dapat memanggil salah satu metode _Response object_ misalnya, `text()` atau `json()`. Metode-metode ini diselesaikan ke dalam data aktual.
