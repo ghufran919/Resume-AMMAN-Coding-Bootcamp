@@ -1,4 +1,4 @@
-## ReactJS Basic
+## ReactJS Dasar
 ReactJS adalah pustaka JavaScript _open source_ untuk mengembangkan antarmuka pengguna (UI) dalam aplikasi web. 
 
 ## Pemasangan ReactJS
