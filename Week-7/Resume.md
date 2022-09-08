@@ -8,9 +8,9 @@ React Router adalah pustaka standar untuk perutean di ReactJS. Ini memungkinkan 
 
 Untuk menambahkan React-Router ke proyek yang sudah ada, hal pertama yang harus kita lakukan adalah menginstal dependensi dengan:
 
-> $ npm install react-router-dom@6
+> npm install react-router-dom@6
 
-Setelah proyek diatur dan React-Router diinstal, buka src/index.js di editor teks. Impor `BrowserRouter` dari `react-router-dom` kemudian bungkus aplikasi dalam `BrowserRouter`
+Setelah proyek diatur dan React-Router diinstal, buka `src/index.js` di editor teks. Impor `BrowserRouter` dari `react-router-dom` kemudian bungkus aplikasi dalam `BrowserRouter`
 
 **Contoh**
 
@@ -75,7 +75,7 @@ Sebagian besar tata letak digabungkan ke segmen URL dan `React-router` mencakup 
 
 BrowserRouter adalah antar muka yang direkomendasikan untuk menjalankan React Router di browser web. `BrowserRouter` menyimpan lokasi saat ini di bilah alamat browser menggunakan URL bersih dan bernavigasi menggunakan tumpukan riwayat bawaan browser.
 
-`BrowserRouter window` default untuk menggunakan `defaultView` dokumen saat ini, tetapi juga dapat digunakan untuk melacak perubahan ke URL jendela lain.
+`BrowserRouter window default` untuk menggunakan `defaultView` dokumen saat ini, tetapi juga dapat digunakan untuk melacak perubahan ke URL jendela lain.
 
 **Contoh**
 
@@ -92,7 +92,7 @@ BrowserRouter adalah antar muka yang direkomendasikan untuk menjalankan React Ro
 
 ## Hooks
 
-_Hooks_ adalah tambahan baru di `React 16.8`. Hal ini memungkinkan kita untuk menggunakan status dan fitur React lainnya tanpa menulis _class_.
+_Hooks_ adalah tambahan baru di `React 16.8`. Hal ini memungkinkan kita untuk menggunakan _status_ dan fitur React lainnya tanpa menulis _class_.
 
 **Contoh**
 
@@ -112,7 +112,7 @@ _Hooks_ adalah tambahan baru di `React 16.8`. Hal ini memungkinkan kita untuk me
     );
     }
 
-## State Management
+## State Management dan Redux
 
 State Management adalah pengaturan data agar data tersebut bisa digunakan secara berulang kali (_reusable_), bisa juga mengatur data-data yang dapat di share untuk _component_ yang lain. Redux terdiri dari beberapa tahap penyesuaian yakni:
 
@@ -149,7 +149,7 @@ Di Redux, _action creators_ adalah fungsi yang mengembalikan objek _actions_. Ba
 _Store_ mengacu pada objek yang menyatukan tindakan dan reduksi yang memperbarui status sesuai dengan tindakan tersebut. Hanya ada satu _store_ dalam aplikasi 
 Redux.
 
-Kita membutuhkan Redux untuk membuat _store_. Kita menggunakan combineReducers untuk menggabungkan beberapa Redux menjadi satu. Untuk membuat _store_, kita mengimpor `combineReducers` dan meneruskannya ke `createStore`. Kemudian mengirimkan tindakan di aplikasi kami menggunakan _dispatch_ metode pengiriman _store_.
+Kita membutuhkan Redux untuk membuat _store_. Kita menggunakan `combineReducers` untuk menggabungkan beberapa Redux menjadi satu. Untuk membuat _store_, kita mengimpor `combineReducers` dan meneruskannya ke `createStore`. Kemudian mengirimkan tindakan di aplikasi kami menggunakan _dispatch_ metode pengiriman _store_.
 
 **Contoh**
 
