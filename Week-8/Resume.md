@@ -8,10 +8,10 @@ _Context_ adalah API yang dibangun ke dalam _React_, mulai dari `React 16`. _Rea
 Data harus ditempatkan pada _React-context_ yang tidak perlu sering diperbarui. Karena _context_ tidak membuat _state management system_. Hal ini dibuat untuk membuat mengelola data lebih mudah.
 
 Ada empat langkah untuk menggunakan konteks React: 
-- Buat _Context_ menggunakan metode createContext.
+- Buat _Context_ menggunakan metode `createContext`.
 - Ambil _Context_ yang dibuat dan bungkus _context provider_ dalam _component tree_
-- Letakkan nilai apa pun pada _context provider_ menggunakan value prop. 
-- Baca value itu dalam _component_ apa pun dengan menggunakan _context consumer_.
+- Letakkan nilai apa pun pada _context provider_ menggunakan `value prop`. 
+- Baca `value` itu dalam _component_ apa pun dengan menggunakan _context consumer_.
 
 **Contoh**
 
@@ -37,7 +37,7 @@ Ada empat langkah untuk menggunakan konteks React:
 ## React Testing
 _Testing_ adalah proses 3 langkah meliputi:
 1. `Arrange`: aplikasi dalam keadaan asli tertentu.  
-2. `Act`: Sesuatu terjadi (klik peristiwa, input, dll.).
+2. `Act`: Sesuatu terjadi (_click event_, input, dll.).
 3. `Assert`: Kemudian kita menegaskan, atau membuat hipotesis, tentang _state_ baru aplikasi. Tes akan lulus jika hipotesis benar dan gagal jika salah.
 
 Tidak seperti _react component_, _testing_ tidak dijalankan di browser. `Jest` adalah _test runner_ dan _testing framework_ yang digunakan oleh React. 
