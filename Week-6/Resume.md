@@ -14,12 +14,12 @@ ReactJS adalah pustaka JavaScript _open source_ untuk mengembangkan antarmuka pe
 > npm install -g create-react-app
 
 ## Inisialisasi Proyek dengan ReactJS
-1. Buka Terminal atau Command Prompt (CMD)
+1. Buka Terminal atau `Command Prompt` (CMD)
 2. Lakukan perintah pada terminal yang telah dibuka:
 
 > npx create-react-app [name-project]
 
-3. Install _React-router Library _
+3. Install _React-router Library_
 
 > npm install react-router@5.3.3
 
@@ -46,7 +46,7 @@ Ada dua cara dalam membuat _component_, yakni dengan _function_ dan _class_.
 
 **_Stateful Components and Stateless Components_**
 
-- _Stateful Components_ digunakan untuk membungkus kode dari stateless component dengan cakupan yang lebih banyak dan besar. _Components_ ini memiliki _state_ dan _props_ serta dibuat dengan class. Kelebihan dari _components_ jenis adalah memiliki _lifecycle_
+- _Stateful Components_ digunakan untuk membungkus kode dari _stateless component_ dengan cakupan yang lebih banyak dan besar. _Components_ ini memiliki _state_ dan _props_ serta dibuat dengan _class_. Kelebihan dari _components_ jenis adalah memiliki _lifecycle_
 
       class Hello extends React.Component {
          render() {
@@ -58,7 +58,7 @@ Ada dua cara dalam membuat _component_, yakni dengan _function_ dan _class_.
             }
          }
 
-- _Stateless component_ atau _functional component_ adalah sebuah fungsi javascript yang hanya mengambil sebuah inputan, biasanya digunakan untuk membungkus _child components_ seperti _component table, button_ dsb. Components jenis ini tidak memiliki _state_ dan hanya memiliki _prop_. Pada umumnya _component_ ini di buat dengan _function_ karena _code_nya lebih ringkas
+- _Stateless component_ atau _functional component_ adalah sebuah fungsi javascript yang hanya mengambil sebuah inputan, biasanya digunakan untuk membungkus _child components_ seperti _component table, button_ dsb. Components jenis ini tidak memiliki _state_ dan hanya memiliki _prop_. Pada umumnya _component_ ini dibuat dengan _function_ karena _code_ nya lebih ringkas
 
       const HelloComponent () => {
          return <p>Hello Functional Component</p>
@@ -66,7 +66,7 @@ Ada dua cara dalam membuat _component_, yakni dengan _function_ dan _class_.
 
 _**State dan Props**_
 
-- _Props_: Singkatan dari _property_. Prop umumnya digunakan untuk komunikasi _data component_ dari _parent component_ ke _child component_.Prop bersifat _read-only_.
+- _Props_: Singkatan dari _property_. Prop umumnya digunakan untuk komunikasi _data component_ dari _parent component_ ke _child component_. Prop bersifat _read-only_.
 
 - _State_: Merupakan _data private_ sebuah _component_. Data ini hanya tersedia untuk _component_ tersebut dan tidak bisa di akses oleh _component_ lain. 
 
@@ -84,9 +84,10 @@ _Lifecyle_ dari _components_ dibagi menjadi tahap-tahap sebagai berikut:
 - _Update_: Dalam kondisi ini, DOM berinteraksi dengan pengguna dan diperbarui.
 
 > shouldComponentUpdate() : Dipanggil ketika _component_ diperbarui.
+
 > componentDidUpdate() : Dipanggil setelah _component_ diperbarui. 
 
 - _UnMounting_: Status ini muncul ketika _component_ tidak diperlukan atau dihapus. 
 
-> Component willUnmount(): Dipanggil ketika _Component_ dihapus atau dihancurkan.
+> ComponentwillUnmount(): Dipanggil ketika _Component_ dihapus atau dihancurkan.
 

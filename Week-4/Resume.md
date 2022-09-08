@@ -17,7 +17,7 @@ Dalam satuan panjang relatif didefinisikan sebagai em, ex, ch dan rem. Ini adala
 _Media query_ adalah adalah fungsionalitas HTML/CSS yang memungkinkan konten halaman Web untuk beradaptasi dengan jenis media tempat halaman tersebut dirender, seperti layar komputer atau layar ponsel atau tablet.
 
 ## Bootstrap
-Bootstrap adalah kerangka kerja pengembangan _front-end open source_ gratis untuk pembuatan situs web dan aplikasi web. Dirancang untuk memungkinkan pengembangan responsif situs web _mobile-first_, Bootstrap menyediakan kumpulan sintaks untuk desain template.
+Bootstrap adalah kerangka kerja pengembangan _front-end open source_ gratis untuk pembuatan situs web dan aplikasi web. Dirancang untuk memungkinkan pengembangan responsif situs web _mobile-first_, Bootstrap menyediakan kumpulan sintaks untuk desain _template_.
 
 **Layout and Grid System**
 
@@ -26,11 +26,11 @@ Bootstrap adalah kerangka kerja pengembangan _front-end open source_ gratis untu
 _Container_ `b-container` adalah elemen tata letak paling dasar di Bootstrap.
 
 1. _Fluid width container_-> Dengan menggunakan _fluid prop_ pada `b-container` akan membuat kontainer yang lebarnya selalu 100%, terlepas dari _breakpoint viewport_.
-2. _Responsive fluid containers_ -> Memungkinkan kita untuk menentukan _container_ dengan _width _100% (_fluid_) sampai _breakpoint_ tertentu tercapai di mana `_max-width_` diterapkan.
+2. _Responsive fluid containers_ -> Memungkinkan kita untuk menentukan _container_ dengan _width_ 100% (_fluid_) sampai _breakpoint_ tertentu tercapai di mana `max-width` diterapkan.
 
 - _Row_
 
-_Row_ (`b-row` dan `b-form-row`) adalah pembungkus untuk `_columns_`. Setiap _columns_ memiliki `_horizontal padding_` untuk mengontrol ruang di antara mereka.
+_Row_ (`b-row` dan `b-form-row`) adalah pembungkus untuk `columns`. Setiap _columns_ memiliki `horizontal padding` untuk mengontrol ruang di antara mereka.
 
 - _Columns_
 
